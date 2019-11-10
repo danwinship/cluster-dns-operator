@@ -122,6 +122,7 @@ spec:
         resources:
           requests:
             cpu: 10m
+      hostNetwork: true
       dnsPolicy: Default
       nodeSelector:
         kubernetes.io/os: linux      
